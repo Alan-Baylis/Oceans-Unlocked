@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{AFA0D3FB-5ABB-54E2-74C9-60E531D0A5A0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_1_0;UNITY_2017_1;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_MODULAR_UNITYENGINE_ASSEMBLIES;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Volumes/ExtBoot/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Volumes/ExtBoot/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Ceto\Scripts\Common\Interpolation\IInterpolatedArray2.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Common\Interpolation\InterpolatedArray.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Common\Interpolation\InterpolatedArray2f.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Common\Queues\DictionaryQueue.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Common\Queues\SetQueue.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Common\Threading\Scheduler\ICoroutine.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Common\Threading\Scheduler\IScheduler.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Common\Threading\Scheduler\Scheduler.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Common\Threading\Tasks\ICancelToken.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Common\Threading\Tasks\IThreadedTask.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Common\Threading\Tasks\TaskListener.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Common\Threading\Tasks\ThreadedTask.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Common\Unity\CBUtility.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Common\Unity\DisableFog.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Common\Unity\DisableGameObject.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Common\Unity\DisableShadows.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Common\Unity\ExtendedFind.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Common\Unity\FPSCounter.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Common\Unity\NotifyOnEvent.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Common\Unity\NotifyOnRenderObject.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Common\Unity\NotifyOnWillRender.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Common\Unity\Quit.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Common\Unity\RotateLight.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Common\Unity\RTUtility.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Common\Unity\Wireframe.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Grids\OceanGridBase.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Grids\ProjectedGrid.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Ocean\Buoyancy\Buoyancy.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Ocean\Buoyancy\BuoyantStructure.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Ocean\Buoyancy\StickToSurface.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Ocean\IgnoreOceanEvents.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Ocean\IOceanTime.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Ocean\IProjection.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Ocean\Ocean.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Ocean\OceanCameraSettings.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Ocean\OceanComponent.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Ocean\OceanData.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Ocean\OceanTime.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Ocean\OceanUtility.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Ocean\Overlays\AddAutoShoreMask.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Ocean\Overlays\AddFoamThruster.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Ocean\Overlays\AddFoamTrail.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Ocean\Overlays\AddShoreMask.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Ocean\Overlays\AddWaveOverlay.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Ocean\Overlays\AddWaveOverlayBase.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Ocean\Overlays\FoamOverlay.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Ocean\Overlays\OverlayManager.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Ocean\Overlays\OverlayTexture.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Ocean\Overlays\WaveOverlay.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Ocean\Projection3d.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Ocean\Projection3f.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Ocean\Querys\WaveQuery.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Ocean\Querys\WaveQueryTask.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Reflections\PlanarReflection.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Reflections\ReflectionBase.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Reflections\ReflectionCameraCullingDistances.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Spectrum\Buffers\DisplacementBufferCPU.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Spectrum\Buffers\DisplacementBufferGPU.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Spectrum\Buffers\IDisplacementBuffer.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Spectrum\Buffers\QueryDisplacements.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Spectrum\Buffers\WaveSpectrumBuffer.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Spectrum\Buffers\WaveSpectrumBufferCPU.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Spectrum\Buffers\WaveSpectrumBufferGPU.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Spectrum\Conditions\CustomWaveSpectrumCondition.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Spectrum\Conditions\ISpectrum.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Spectrum\Conditions\PhillipsSpectrum.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Spectrum\Conditions\PhillipsSpectrumCondition.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Spectrum\Conditions\PhillipsSpectrumConditionKey.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Spectrum\Conditions\UnifiedPhillipsSpectrumCondition.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Spectrum\Conditions\UnifiedSpectrum.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Spectrum\Conditions\UnifiedSpectrumCondition.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Spectrum\Conditions\UnifiedSpectrumConditionKey.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Spectrum\Conditions\WaveSpectrumCondition.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Spectrum\Conditions\WaveSpectrumConditionKey.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Spectrum\CustomWaveSpectrumExample.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Spectrum\Fourier\FourierCPU.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Spectrum\Fourier\FourierGPU.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Spectrum\ICustomWaveSpectrum.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Spectrum\Tasks\FindRangeTask.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Spectrum\Tasks\FourierTask.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Spectrum\Tasks\InitSpectrumDisplacementsTask.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Spectrum\Tasks\SpectrumTask.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Spectrum\WaveSpectrum.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Spectrum\WaveSpectrumBase.cs" />
+     <Compile Include="Assets\Ceto\Scripts\UnderWater\IRefractionCommand.cs" />
+     <Compile Include="Assets\Ceto\Scripts\UnderWater\RefractionCommand.cs" />
+     <Compile Include="Assets\Ceto\Scripts\UnderWater\RefractionCommandBase.cs" />
+     <Compile Include="Assets\Ceto\Scripts\UnderWater\UnderWater.cs" />
+     <Compile Include="Assets\Ceto\Scripts\UnderWater\UnderWaterBase.cs" />
+     <Compile Include="Assets\Ceto\Scripts\UnderWater\UnderWaterPostEffect.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Utility\AddRenderTarget.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Utility\DisplayTexture.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Utility\FreeCam.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Utility\GUIDisplay.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Utility\ImageBlur.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Utility\ShipCamera.cs" />
+     <Compile Include="Assets\Ceto\Scripts\Utility\ShoreMaskGenerator.cs" />
+     <Compile Include="Assets\FloatingEntities\Scripts\BoatController.cs" />
+     <Compile Include="Assets\FloatingEntities\Scripts\GameEntity\FloatingGameEntityFlat.cs" />
+     <Compile Include="Assets\FloatingEntities\Scripts\GameEntity\FloatingGameEntityRealist.cs" />
+     <Compile Include="Assets\FloatingEntities\Scripts\GameEntity\FloatingGameEntityStorm.cs" />
+     <Compile Include="Assets\FloatingEntities\Scripts\GameEntity\GameEntity.cs" />
+     <Compile Include="Assets\FloatingEntities\Scripts\OceanAdvanced.cs" />
+     <Compile Include="Assets\FloatingEntities\Scripts\Orbital.cs" />
+     <Compile Include="Assets\FloatingEntities\Scripts\PropellerBoats.cs" />
+     <Compile Include="Assets\FloatingEntities\Scripts\SplashGenerator.cs" />
+     <Compile Include="Assets\FloatingEntities\Scripts\Tools\Proxies.cs" />
+     <Compile Include="Assets\FloatingEntities\Scripts\WakeGenerator.cs" />
+     <Compile Include="Assets\MSVehicleSystem(free version)\Scene\ExampleScene.cs" />
+     <Compile Include="Assets\MSVehicleSystem(free version)\Scripts\MSFPSController.cs" />
+     <Compile Include="Assets\MSVehicleSystem(free version)\Scripts\MSSceneController.cs" />
+     <Compile Include="Assets\MSVehicleSystem(free version)\Scripts\MSVehicleController.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing Volume\Example\ExampleSceneScripts\MouseCamera.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing Volume\Scripts\PostProcessVolume.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing Volume\Scripts\PostProcessVolumeReceiver.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Components\BloomComponent.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Components\ChromaticAberrationComponent.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Components\DitheringComponent.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Components\FogComponent.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Components\FxaaComponent.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Components\GrainComponent.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Components\TaaComponent.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Components\UserLutComponent.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Components\VignetteComponent.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Models\BloomModel.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Models\DitheringModel.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Models\FogModel.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Models\GrainModel.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Models\UserLutModel.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Models\VignetteModel.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\PostProcessingComponent.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\PostProcessingContext.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\PostProcessingModel.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\PostProcessingProfile.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Utilities\FocusPuller.cs" />
+     <Compile Include="Assets\PostProcessingVolume\PostProcessing\Utilities\PostProcessingController.cs" />
+     <Compile Include="Assets\VIDE\Data\MiniJSON_VIDE.cs" />
+     <Compile Include="Assets\VIDE\Data\VIDE_EditorDB.cs" />
+     <Compile Include="Assets\VIDE\Examples\Example1\demoScripts\CylinderGuy.cs" />
+     <Compile Include="Assets\VIDE\Examples\Example1\demoScripts\examplePlayer.cs" />
+     <Compile Include="Assets\VIDE\Examples\Example1\demoScripts\exampleUI.cs" />
+     <Compile Include="Assets\VIDE\Examples\Example1\demoScripts\QuestChartDemo.cs" />
+     <Compile Include="Assets\VIDE\Examples\Example1\demoScripts\witchExample.cs" />
+     <Compile Include="Assets\VIDE\Examples\Example2\minUIExample.cs" />
+     <Compile Include="Assets\VIDE\VIDE_Assign.cs" />
+     <Compile Include="Assets\VIDE\VIDE_Data.cs" />
+     <None Include="Assets\Ceto\Shaders\Read.compute" />
+     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\DepthOfField.shader" />
+     <None Include="Assets\Ceto\Shaders\OceanBottom.shader" />
+     <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
+     <None Include="Assets\Ceto\Shaders\OceanShadowCasterBody.cginc" />
+     <None Include="Assets\Ceto\Shaders\OceanMask.shader" />
+     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
+     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\Fog.shader" />
+     <None Include="Assets\PostProcessingVolume\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
+     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\LutGen.shader" />
+     <None Include="Assets\Ceto\Shaders\InitJacobians.shader" />
+     <None Include="Assets\PostProcessingVolume\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
+     <None Include="Assets\FloatingEntities\Shaders\OceanAdvanced.shader" />
+     <None Include="Assets\PostProcessingVolume\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
+     <None Include="Assets\Ceto\Shaders\SlopeCopy.shader" />
+     <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Guidelines.txt" />
+     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
+     <None Include="Assets\Ceto\Shaders\CopyDepth.shader" />
+     <None Include="Assets\PostProcessingVolume\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
+     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\ACES.cginc" />
+     <None Include="Assets\Ceto\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
+     <None Include="Assets\FloatingEntities\Shaders\WaterToolBox.cginc" />
+     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Readme.txt" />
+     <None Include="Assets\PostProcessingVolume\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
+     <None Include="Assets\Ceto\Shaders\OceanTopSide_Opaque.shader" />
+     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\Uber.shader" />
+     <None Include="Assets\Ceto\Shaders\OceanDisplacement.cginc" />
+     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\Blit.shader" />
+     <None Include="Assets\PostProcessingVolume\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
+     <None Include="Assets\FloatingEntities\Shaders\Ocean.shader" />
+     <None Include="Assets\PostProcessingVolume\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
+     <None Include="Assets\Ceto\Shaders\OceanBRDF.cginc" />
+     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\FXAA3.cginc" />
+     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\MotionBlur.shader" />
+     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
+     <None Include="Assets\Ceto\Shaders\OceanTopSide_Transparent.shader" />
+     <None Include="Assets\Ceto\Shaders\InitDisplacement.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
+     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
+     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
+     <None Include="Assets\Ceto\Shaders\OceanUnderSide_Opaque.shader" />
+     <None Include="Assets\Ceto\Shaders\OceanShaderHeader.cginc" />
+     <None Include="Assets\Ceto\Shaders\Fourier.shader" />
+     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\Common.cginc" />
+     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
+     <None Include="Assets\Ceto\Shaders\WaveOverlay.shader" />
+     <None Include="Assets\Ceto\Version.txt" />
+     <None Include="Assets\Ceto\Shaders\FoamCopy.shader" />
+     <None Include="Assets\PostProcessingVolume\PostProcessing\Editor Resources\UI\Trackball.shader" />
+     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
+     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\Bloom.cginc" />
+     <None Include="Assets\VIDE\Examples\Example1\README!.txt" />
+     <None Include="Assets\VIDE\Data\example1Assets\Atmosphere.shader" />
+     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\TAA.shader" />
+     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
+     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\TAA.cginc" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
+     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
+     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\GrainGen.shader" />
+     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\FXAA.shader" />
+     <None Include="Assets\Ceto\Shaders\OceanDepth.shader" />
+     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\DiskKernels.cginc" />
+     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
+     <None Include="Assets\VIDE\ReadMe.txt" />
+     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
+     <None Include="Assets\Ceto\Shaders\OceanSurfaceShaderBody.cginc" />
+     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\Bloom.shader" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
+     <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+     <None Include="Assets\Ceto\Shaders\OceanUnderWater.cginc" />
+     <None Include="Assets\Ceto\Shaders\OceanUnderSide_Transparent.shader" />
+     <None Include="Assets\Ceto\Shaders\InitSlope.shader" />
+     <None Include="Assets\PostProcessingVolume\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
+     <None Include="Assets\MSVehicleSystem(free version)\Scripts\Shaders\SkidMarks.shader" />
+     <None Include="Assets\Ceto\Shaders\UnderWaterPostEffect.shader" />
+     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
+     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+     <None Include="Assets\Ceto\Manual.txt" />
+     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
+     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+     <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
+     <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
+     <None Include="Assets\Ceto\Shaders\DisplacementCopy.shader" />
+     <None Include="Assets\PostProcessingVolume\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
+     <None Include="Assets\Ceto\Shaders\OceanMasking.cginc" />
+     <None Include="Assets\Ceto\Shaders\OceanMaskBody.cginc" />
+ <Reference Include="Assembly-CSharp-firstpass">
+ <HintPath>/Volumes/ExtBoot/Oceans Unlocked/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Volumes/ExtBoot/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Volumes/ExtBoot/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>/Volumes/ExtBoot/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/Volumes/ExtBoot/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>/Volumes/ExtBoot/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Volumes/ExtBoot/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Volumes/ExtBoot/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="ArchimedsLab">
+ <HintPath>/Volumes/ExtBoot/Oceans Unlocked/Assets/FloatingEntities/Scripts/ArchimedsLab.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
