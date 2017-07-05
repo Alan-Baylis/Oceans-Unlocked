@@ -1,10 +1,10 @@
 ﻿using UnityEngine;
+using UnityEngine.Networking;
 using System.Collections.Generic;
 
 namespace Ceto
 {
-	
-	public class ShipCamera : MonoBehaviour 
+	public class ShipCamera : NetworkBehaviour
 	{
 
 		struct Position
@@ -21,7 +21,7 @@ namespace Ceto
 		public GameObject m_ship;
 
 		public Vector3 m_forward = new Vector3(0,0,1);
-		
+
 		public float m_shipMoveSpeed = 20.0f;
 
 		[Range(0.01f, 1.0f)]
@@ -64,8 +64,8 @@ namespace Ceto
 				return m_ship;
 			}
 		}
-		
-		void Start () 
+
+		void Start ()
 		{
 
 			m_position.camRotation.x = m_camStartRotationX;
@@ -78,8 +78,15 @@ namespace Ceto
 			m_previousPos = Ship.transform.position;
 
 		}
-		
-		void LateUpdate() 
+
+		void Update()
+		{
+			if (!isLocalPlayer) {
+				return;
+			}
+		}
+
+		void LateUpdate()
 		{
 
 			ProcessInput();
@@ -87,7 +94,7 @@ namespace Ceto
 			InterpolateToTarget();
 
 			MoveShip();
-	
+
 		}
 
         void OnDestroy()
@@ -119,7 +126,7 @@ namespace Ceto
 
 			m_velocity = Ship.transform.position - m_previousPos;
 			m_previousPos = Ship.transform.position;
-		
+
 		}
 
 		void InterpolateToTarget()
@@ -164,19 +171,19 @@ namespace Ceto
 				m_target.turnAmount -= deg * Time.deltaTime;
 				m_target.camRotation.x -= deg * Time.deltaTime;
 			}
-			
+
 			//move right
 			if(Input.GetKey(KeyCode.D))
 			{
 				float deg = speed * velocity;
-				
+
 				m_target.turnAmount += deg * Time.deltaTime;
 				m_target.camRotation.x += deg * Time.deltaTime;
 			}
 
 			Vector3 forward = Ship.transform.localToWorldMatrix * m_forward;
 			forward.Normalize();
-			
+
 			//move forward
 			if(Input.GetKey(KeyCode.W))
 			{
@@ -193,7 +200,7 @@ namespace Ceto
 
 			float dt = Time.deltaTime * 1000.0f;
 			float amount = Mathf.Pow(1.02f, Mathf.Min(dt, 1.0f));
-			
+
 			if (Input.GetAxis("Mouse ScrollWheel") < 0.0f)
 			{
 				m_target.camDistance *= amount;
@@ -215,5 +222,5 @@ namespace Ceto
 
         }
     }
-	
+
 }
