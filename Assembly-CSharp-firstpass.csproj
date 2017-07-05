@@ -116,6 +116,7 @@
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
      <None Include="Assets\Ceto\Shaders\CopyDepth.shader" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
+     <None Include="Assets\UltimateMenus\Readme.txt" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\ACES.cginc" />
      <None Include="Assets\Ceto\Shaders\BlurEffectConeTaps.shader" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />

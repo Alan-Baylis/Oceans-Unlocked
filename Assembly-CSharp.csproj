@@ -213,6 +213,14 @@
      <Compile Include="Assets\PostProcessingVolume\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
      <Compile Include="Assets\PostProcessingVolume\PostProcessing\Utilities\FocusPuller.cs" />
      <Compile Include="Assets\PostProcessingVolume\PostProcessing\Utilities\PostProcessingController.cs" />
+     <Compile Include="Assets\Scripts\damageSound.cs" />
+     <Compile Include="Assets\UltimateMenus\Scripts\ButtonController.cs" />
+     <Compile Include="Assets\UltimateMenus\Scripts\ButtonController_Paused.cs" />
+     <Compile Include="Assets\UltimateMenus\Scripts\CanvasController.cs" />
+     <Compile Include="Assets\UltimateMenus\Scripts\CanvasController_Paused.cs" />
+     <Compile Include="Assets\UltimateMenus\Scripts\MenuController.cs" />
+     <Compile Include="Assets\UltimateMenus\Scripts\MenuController_Paused.cs" />
+     <Compile Include="Assets\UltimateMenus\Scripts\PlayerController.cs" />
      <Compile Include="Assets\VIDE\Data\MiniJSON_VIDE.cs" />
      <Compile Include="Assets\VIDE\Data\VIDE_EditorDB.cs" />
      <Compile Include="Assets\VIDE\Examples\Example1\demoScripts\CylinderGuy.cs" />
@@ -244,6 +252,7 @@
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
      <None Include="Assets\Ceto\Shaders\CopyDepth.shader" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
+     <None Include="Assets\UltimateMenus\Readme.txt" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\ACES.cginc" />
      <None Include="Assets\Ceto\Shaders\BlurEffectConeTaps.shader" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
