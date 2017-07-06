@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_1_0;UNITY_2017_1;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_MODULAR_UNITYENGINE_ASSEMBLIES;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_1_0;UNITY_2017_1;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_MODULAR_UNITYENGINE_ASSEMBLIES;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -51,6 +51,108 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\BitStrap\Examples\Animation\AnimationParameters\AnimationParametersExample.cs" />
+     <Compile Include="Assets\BitStrap\Examples\Animation\AnimationParameters\IndirectAnimationParametersExample.cs" />
+     <Compile Include="Assets\BitStrap\Examples\AssemblyProcessor\MethodInjectionExample.cs" />
+     <Compile Include="Assets\BitStrap\Examples\EditorGraph\MyGraph.cs" />
+     <Compile Include="Assets\BitStrap\Examples\EditorGraph\MyGraphNode.cs" />
+     <Compile Include="Assets\BitStrap\Examples\Extensions\ArrayExtensionsExample.cs" />
+     <Compile Include="Assets\BitStrap\Examples\Extensions\ComponentExtensionsExample.cs" />
+     <Compile Include="Assets\BitStrap\Examples\Extensions\DictionaryExtensionsExample.cs" />
+     <Compile Include="Assets\BitStrap\Examples\Extensions\FloatExtensionsExample.cs" />
+     <Compile Include="Assets\BitStrap\Examples\Extensions\GameObjectExtensionsExample.cs" />
+     <Compile Include="Assets\BitStrap\Examples\Extensions\HashSetExtensionsExample.cs" />
+     <Compile Include="Assets\BitStrap\Examples\Extensions\IntExtensionsExample.cs" />
+     <Compile Include="Assets\BitStrap\Examples\Extensions\ListExtensionsExample.cs" />
+     <Compile Include="Assets\BitStrap\Examples\Extensions\StringExtensionsExample.cs" />
+     <Compile Include="Assets\BitStrap\Examples\Graphic\ParticleControllerExample.cs" />
+     <Compile Include="Assets\BitStrap\Examples\Helpers\ColorHelperExample.cs" />
+     <Compile Include="Assets\BitStrap\Examples\Helpers\EmailHelperExample.cs" />
+     <Compile Include="Assets\BitStrap\Examples\Helpers\Math\BitHelperExample.cs" />
+     <Compile Include="Assets\BitStrap\Examples\Helpers\Math\VectorHelperExample.cs" />
+     <Compile Include="Assets\BitStrap\Examples\Helpers\ReflectionHelperExample.cs" />
+     <Compile Include="Assets\BitStrap\Examples\Helpers\StringHelperExample.cs" />
+     <Compile Include="Assets\BitStrap\Examples\Inspector\AttributesExample.cs" />
+     <Compile Include="Assets\BitStrap\Examples\Inspector\ComponentReference.cs" />
+     <Compile Include="Assets\BitStrap\Examples\Inspector\InterfaceReferenceExample.cs" />
+     <Compile Include="Assets\BitStrap\Examples\Inspector\MyClassThaImplementsMyInterface.cs" />
+     <Compile Include="Assets\BitStrap\Examples\Inspector\RuntimeConsoleExample.cs" />
+     <Compile Include="Assets\BitStrap\Examples\Math\FastRandomExample.cs" />
+     <Compile Include="Assets\BitStrap\Examples\Math\ModifiableExample.cs" />
+     <Compile Include="Assets\BitStrap\Examples\Math\NumberBoundsExample.cs" />
+     <Compile Include="Assets\BitStrap\Examples\Math\SecureIntExample.cs" />
+     <Compile Include="Assets\BitStrap\Examples\Monads\OptionExample.cs" />
+     <Compile Include="Assets\BitStrap\Examples\Physics\Collision2dListener.cs" />
+     <Compile Include="Assets\BitStrap\Examples\Physics\CollisionListener.cs" />
+     <Compile Include="Assets\BitStrap\Examples\Physics\Trigger2dListener.cs" />
+     <Compile Include="Assets\BitStrap\Examples\Physics\TriggerListener.cs" />
+     <Compile Include="Assets\BitStrap\Examples\Tween\TweenPathExample.cs" />
+     <Compile Include="Assets\BitStrap\Examples\Tween\TweenShaderExample.cs" />
+     <Compile Include="Assets\BitStrap\Examples\Util\BitStreamExample.cs" />
+     <Compile Include="Assets\BitStrap\Examples\Util\CircularBufferExample.cs" />
+     <Compile Include="Assets\BitStrap\Examples\Util\CreateExample.cs" />
+     <Compile Include="Assets\BitStrap\Examples\Util\DummyBehaviour.cs" />
+     <Compile Include="Assets\BitStrap\Examples\Util\DummySingleton.cs" />
+     <Compile Include="Assets\BitStrap\Examples\Util\NestedPrefabExample.cs" />
+     <Compile Include="Assets\BitStrap\Examples\Util\SafeActionExample.cs" />
+     <Compile Include="Assets\BitStrap\Examples\Util\SingletonExample.cs" />
+     <Compile Include="Assets\BitStrap\Examples\Util\TimerExample.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Animation\AnimationParameters\AnimationParameter.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Animation\AnimationParameters\AnimatorFieldAttribute.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Animation\AnimationParameters\BoolAnimationParameter.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Animation\AnimationParameters\FloatAnimationParameter.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Animation\AnimationParameters\IntAnimationParameter.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Animation\AnimationParameters\TriggerAnimationParameter.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\EditorGraph\EditorGraphSerializer.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Extensions\ArrayExtensions.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Extensions\ComponentExtensions.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Extensions\DictionaryExtensions.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Extensions\FloatExtensions.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Extensions\GameObjectExtensions.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Extensions\HashSetExtensions.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Extensions\IntExtensions.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Extensions\ListExtensions.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Extensions\StringExtensions.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Graphic\ParticleController.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Helpers\ColorHelper.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Helpers\EmailHelper.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Helpers\Math\BitHelper.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Helpers\Math\VectorHelper.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Helpers\ReflectionHelper.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Helpers\StringHelper.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Inspector\Attributes\ButtonAttribute.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Inspector\Attributes\ExponentInfoAttribute.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Inspector\Attributes\FolderPathAttribute.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Inspector\Attributes\HelpBoxAttribute.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Inspector\Attributes\LayerSelectorAttribute.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Inspector\Attributes\ReadOnlyAttribute.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Inspector\Attributes\RequireInterfaceAttribute.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Inspector\Attributes\ShowImplementedInterfacesAttribute.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Inspector\Attributes\TagSelectorAttribute.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Inspector\Attributes\UnitAttribute.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Inspector\BrowserConsoleLogHook.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Inspector\MirrorTool.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Inspector\RuntimeConsole.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Math\FastRandom.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Math\Modifiable.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Math\NumberBounds.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Math\SecureInt.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Monads\Option.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Tween\Tween.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Tween\TweenFov.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Tween\TweenPath.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Tween\TweenShader.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Tween\TweenShaderProperty.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Tween\TweenStep.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Util\BitStream.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Util\Callback.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Util\CircularBuffer.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Util\Create.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Util\NestedPrefab.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Util\PlayerPrefProperty.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Util\SafeAction.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Util\Singleton.cs" />
+     <Compile Include="Assets\BitStrap\Plugins\Util\Timer.cs" />
      <Compile Include="Assets\Ceto\Scripts\Common\Interpolation\IInterpolatedArray2.cs" />
      <Compile Include="Assets\Ceto\Scripts\Common\Interpolation\InterpolatedArray.cs" />
      <Compile Include="Assets\Ceto\Scripts\Common\Interpolation\InterpolatedArray2f.cs" />
@@ -254,19 +356,23 @@
      <None Include="Assets\Ceto\Shaders\InitJacobians.shader" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
      <None Include="Assets\FloatingEntities\Shaders\OceanAdvanced.shader" />
+     <None Include="Assets\BitStrap\Examples\Inspector\Editor\C# ScriptTemplate-Example.txt" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
      <None Include="Assets\Ceto\Shaders\SlopeCopy.shader" />
      <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
      <None Include="Assets\Standard Assets\Effects\Projectors\Guidelines.txt" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
+     <None Include="Assets\BitStrap\Shaders\Scanline.shader" />
      <None Include="Assets\LightingBox\Doc\Licence.txt" />
      <None Include="Assets\Ceto\Shaders\CopyDepth.shader" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
      <None Include="Assets\UltimateMenus\Readme.txt" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\ACES.cginc" />
      <None Include="Assets\Ceto\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\BitStrap\Examples\Inspector\Editor\C# ScriptTemplate-Unity.txt" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
      <None Include="Assets\FloatingEntities\Shaders\WaterToolBox.cginc" />
+     <None Include="Assets\BitStrap\Shaders\BackgroundBlur.shader" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Readme.txt" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
@@ -284,6 +390,7 @@
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\FXAA3.cginc" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\MotionBlur.shader" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
+     <None Include="Assets\BitStrap\Docs\Changelog.txt" />
      <None Include="Assets\Ceto\Shaders\OceanTopSide_Transparent.shader" />
      <None Include="Assets\Ceto\Shaders\InitDisplacement.shader" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
@@ -327,8 +434,10 @@
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\Ceto\Shaders\OceanUnderWater.cginc" />
      <None Include="Assets\LightingBox\VolumetricLight\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
+     <None Include="Assets\BitStrap\Docs\README.txt" />
      <None Include="Assets\Ceto\Shaders\OceanUnderSide_Transparent.shader" />
      <None Include="Assets\Ceto\Shaders\InitSlope.shader" />
+     <None Include="Assets\BitStrap\Examples\Inspector\Editor\C# ScriptTemplate-BitStrap.txt" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
      <None Include="Assets\MSVehicleSystem(free version)\Scripts\Shaders\SkidMarks.shader" />
      <None Include="Assets\Ceto\Shaders\UnderWaterPostEffect.shader" />
@@ -342,6 +451,7 @@
      <None Include="Assets\Ceto\Shaders\DisplacementCopy.shader" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
      <None Include="Assets\Ceto\Shaders\OceanMasking.cginc" />
+     <None Include="Assets\BitStrap\Plugins\NewtonsoftJson\link.xml" />
      <None Include="Assets\Ceto\Shaders\OceanMaskBody.cginc" />
  <Reference Include="Assembly-CSharp-firstpass">
  <HintPath>/Volumes/ExtBoot/Oceans Unlocked/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll</HintPath>
@@ -366,6 +476,9 @@
  </Reference>
  <Reference Include="UnityEngine.HoloLens">
  <HintPath>/Volumes/ExtBoot/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>/Volumes/ExtBoot/Oceans Unlocked/Assets/BitStrap/Plugins/NewtonsoftJson/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="ArchimedsLab">
  <HintPath>/Volumes/ExtBoot/Oceans Unlocked/Assets/FloatingEntities/Scripts/ArchimedsLab.dll</HintPath>
