@@ -159,6 +159,15 @@
      <Compile Include="Assets\FloatingEntities\Scripts\SplashGenerator.cs" />
      <Compile Include="Assets\FloatingEntities\Scripts\Tools\Proxies.cs" />
      <Compile Include="Assets\FloatingEntities\Scripts\WakeGenerator.cs" />
+     <Compile Include="Assets\LightingBox\Scripts\CameraMove.cs" />
+     <Compile Include="Assets\LightingBox\Scripts\EditorHotkeysTracker.cs" />
+     <Compile Include="Assets\LightingBox\Scripts\LightingBox.cs" />
+     <Compile Include="Assets\LightingBox\Scripts\LightingProfile.cs" />
+     <Compile Include="Assets\LightingBox\Scripts\PlayerPrefsX.cs" />
+     <Compile Include="Assets\LightingBox\VolumetricLight\Scripts\VolumetricLight.cs" />
+     <Compile Include="Assets\LightingBox\VolumetricLight\Scripts\VolumetricLightRenderer.cs" />
+     <Compile Include="Assets\LightingBox\VolumetricLight\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsBase.cs" />
+     <Compile Include="Assets\LightingBox\VolumetricLight\Standard Assets\Effects\ImageEffects\Scripts\Tonemapping.cs" />
      <Compile Include="Assets\MSVehicleSystem(free version)\Scene\ExampleScene.cs" />
      <Compile Include="Assets\MSVehicleSystem(free version)\Scripts\MSFPSController.cs" />
      <Compile Include="Assets\MSVehicleSystem(free version)\Scripts\MSSceneController.cs" />
@@ -250,6 +259,7 @@
      <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
      <None Include="Assets\Standard Assets\Effects\Projectors\Guidelines.txt" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
+     <None Include="Assets\LightingBox\Doc\Licence.txt" />
      <None Include="Assets\Ceto\Shaders\CopyDepth.shader" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
      <None Include="Assets\UltimateMenus\Readme.txt" />
@@ -262,10 +272,13 @@
      <None Include="Assets\PostProcessingVolume\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
      <None Include="Assets\Ceto\Shaders\OceanTopSide_Opaque.shader" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\Uber.shader" />
+     <None Include="Assets\LightingBox\Shaders\StandardDoubleSided.shader" />
      <None Include="Assets\Ceto\Shaders\OceanDisplacement.cginc" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\Blit.shader" />
+     <None Include="Assets\LightingBox\Doc\Shourtcuts.txt" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
      <None Include="Assets\FloatingEntities\Shaders\Ocean.shader" />
+     <None Include="Assets\LightingBox\VolumetricLight\Shaders\BilateralBlur.shader" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
      <None Include="Assets\Ceto\Shaders\OceanBRDF.cginc" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\FXAA3.cginc" />
@@ -279,6 +292,7 @@
      <None Include="Assets\Ceto\Shaders\OceanUnderSide_Opaque.shader" />
      <None Include="Assets\Ceto\Shaders\OceanShaderHeader.cginc" />
      <None Include="Assets\Ceto\Shaders\Fourier.shader" />
+     <None Include="Assets\LightingBox\VolumetricLight\Shaders\BlitAdd.shader" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\Common.cginc" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
      <None Include="Assets\Ceto\Shaders\WaveOverlay.shader" />
@@ -286,6 +300,8 @@
      <None Include="Assets\Ceto\Shaders\FoamCopy.shader" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Editor Resources\UI\Trackball.shader" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\LightingBox\Shaders\Particle_Fade_Color.shader" />
+     <None Include="Assets\LightingBox\Doc\Optimization.txt" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\Bloom.cginc" />
@@ -293,6 +309,7 @@
      <None Include="Assets\VIDE\Data\example1Assets\Atmosphere.shader" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\TAA.shader" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
+     <None Include="Assets\LightingBox\Doc\Quick Start.txt" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\TAA.cginc" />
      <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
@@ -301,6 +318,7 @@
      <None Include="Assets\Ceto\Shaders\OceanDepth.shader" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\DiskKernels.cginc" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
+     <None Include="Assets\LightingBox\VolumetricLight\Shaders\VolumetricLight.shader" />
      <None Include="Assets\VIDE\ReadMe.txt" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
      <None Include="Assets\Ceto\Shaders\OceanSurfaceShaderBody.cginc" />
@@ -308,6 +326,7 @@
      <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\Ceto\Shaders\OceanUnderWater.cginc" />
+     <None Include="Assets\LightingBox\VolumetricLight\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
      <None Include="Assets\Ceto\Shaders\OceanUnderSide_Transparent.shader" />
      <None Include="Assets\Ceto\Shaders\InitSlope.shader" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />

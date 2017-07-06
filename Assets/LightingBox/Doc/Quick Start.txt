@@ -1,0 +1,45 @@
+
+
+1. First of all you must import following asets:
+
+Post Processing Stack:
+https://www.assetstore.unity3d.com/en/#!/content/83912
+
+Volumetric Light:(already included, just follow updates)
+https://forum.unity3d.com/threads/true-volumetric-lights-now-open-source.390818/
+
+
+Tutorials Playlist:
+https://www.youtube.com/playlist?list=PLVXvfvDWvto0nZQgfPLs_RPq0pyGySNdT
+
+
+Tips:
+
+1. Don't forget  switch to Deferred rendering path in Edit->Project->Graphics.
+Especially when you are importing an complete package (UFPS ...)into current project, you should do following settings again for next gen platforms:
+*. Deffered rendering
+*. Quality settings
+*. Graphic API in player settings set it to DX11+
+*. Select camera and activate HDR and deactivate Allow MSAA
+
+note : DX9 doesn't support HDR eye adaption effect
+
+2. Linear color space is used in all next gen games (UE,Frostbite,...)
+Gamma space quality is not bad but you may need to change scene brightness again when you are in Gamma space.
+My default color space for Lighting Box settings is Linear (You can switch quickly in Lighting Box)
+
+3. WebGL platform doesn't support Eye adaption. Also doesn't support Linear color space
+
+4. I always using Very-Low parameters to bake lighting with enlighten. Don't worry about quality. All settings quality are same between High and low
+For bake mode with Progressive Lightmapper(PLM), you can use highest setting. Don't forget to follow my you tube channel
+about how to baking nature scenes with PLM. You need diffrent lighting parameters for different  objects.
+Also don't forget to change terrain object lightmap parameters manually. It does't update automatically and always is Very-Low by default   
+
+
+5..This asset originally made for Frostbite style lighting for outdoor scene for next gen platforms. For Interior scene 
+i will create a new one that's available in future in Interior Lighting Kit
+Also another one for Mobile platforms will be available   soon
+
+6. My default settings are for maximum quality. My target was 30-60 fps on gtx 960 in 1080p resolution
+You can watch my optimization video on youtube for maximum quality per performance    
+

@@ -1,0 +1,21 @@
+
+
+
+1. Select Post Processing profile and follow below steps:
+* Set Ambient Occlusion to Lowest for best performance. Quality will be good.
+* Disable Screen Space Reflections for outdoor scenes
+* If you want to use SSR, you can set it to Low quality with 2x more fps compare to high mode
+
+
+2. Go to Edit->Project Settings and set shadow quality to lower levels based on your quality needs
+
+3. Always use Occlusion Culling. Window->Occlusion Culling and press Bake (Don't forget to set your scene models as OC static)
+
+4.   Go to Edit->Graphics and set Realtime GI CPU Usage to low
+
+5. use LOD system for models. Specialty for trees and grass
+
+6. Always use Standard shader if you don't need special effect
+
+
+7.
