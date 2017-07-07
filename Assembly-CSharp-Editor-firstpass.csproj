@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{286812CB-AD49-52B1-444C-A4CC05B4ABB3}</ProjectGuid>
+    <ProjectGuid>{330D6C86-7AD6-8DFE-473D-116F6230E247}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor-firstpass</AssemblyName>
@@ -73,7 +73,6 @@
      <None Include="Assets\Standard Assets\Effects\Projectors\Guidelines.txt" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
      <None Include="Assets\BitStrap\Shaders\Scanline.shader" />
-     <None Include="Assets\LightingBox\Doc\Licence.txt" />
      <None Include="Assets\Ceto\Shaders\CopyDepth.shader" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
      <None Include="Assets\UltimateMenus\Readme.txt" />
@@ -88,13 +87,10 @@
      <None Include="Assets\PostProcessingVolume\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
      <None Include="Assets\Ceto\Shaders\OceanTopSide_Opaque.shader" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\Uber.shader" />
-     <None Include="Assets\LightingBox\Shaders\StandardDoubleSided.shader" />
      <None Include="Assets\Ceto\Shaders\OceanDisplacement.cginc" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\Blit.shader" />
-     <None Include="Assets\LightingBox\Doc\Shourtcuts.txt" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
      <None Include="Assets\FloatingEntities\Shaders\Ocean.shader" />
-     <None Include="Assets\LightingBox\VolumetricLight\Shaders\BilateralBlur.shader" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
      <None Include="Assets\Ceto\Shaders\OceanBRDF.cginc" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\FXAA3.cginc" />
@@ -109,7 +105,6 @@
      <None Include="Assets\Ceto\Shaders\OceanUnderSide_Opaque.shader" />
      <None Include="Assets\Ceto\Shaders\OceanShaderHeader.cginc" />
      <None Include="Assets\Ceto\Shaders\Fourier.shader" />
-     <None Include="Assets\LightingBox\VolumetricLight\Shaders\BlitAdd.shader" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\Common.cginc" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
      <None Include="Assets\Ceto\Shaders\WaveOverlay.shader" />
@@ -117,8 +112,6 @@
      <None Include="Assets\Ceto\Shaders\FoamCopy.shader" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Editor Resources\UI\Trackball.shader" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-     <None Include="Assets\LightingBox\Shaders\Particle_Fade_Color.shader" />
-     <None Include="Assets\LightingBox\Doc\Optimization.txt" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\Bloom.cginc" />
@@ -126,7 +119,6 @@
      <None Include="Assets\VIDE\Data\example1Assets\Atmosphere.shader" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\TAA.shader" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
-     <None Include="Assets\LightingBox\Doc\Quick Start.txt" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\TAA.cginc" />
      <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
@@ -135,7 +127,6 @@
      <None Include="Assets\Ceto\Shaders\OceanDepth.shader" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\DiskKernels.cginc" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
-     <None Include="Assets\LightingBox\VolumetricLight\Shaders\VolumetricLight.shader" />
      <None Include="Assets\VIDE\ReadMe.txt" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
      <None Include="Assets\Ceto\Shaders\OceanSurfaceShaderBody.cginc" />
@@ -143,13 +134,11 @@
      <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\Ceto\Shaders\OceanUnderWater.cginc" />
-     <None Include="Assets\LightingBox\VolumetricLight\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
      <None Include="Assets\BitStrap\Docs\README.txt" />
      <None Include="Assets\Ceto\Shaders\OceanUnderSide_Transparent.shader" />
      <None Include="Assets\Ceto\Shaders\InitSlope.shader" />
      <None Include="Assets\BitStrap\Examples\Inspector\Editor\C# ScriptTemplate-BitStrap.txt" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
-     <None Include="Assets\MSVehicleSystem(free version)\Scripts\Shaders\SkidMarks.shader" />
      <None Include="Assets\Ceto\Shaders\UnderWaterPostEffect.shader" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
@@ -164,7 +153,7 @@
      <None Include="Assets\BitStrap\Plugins\NewtonsoftJson\link.xml" />
      <None Include="Assets\Ceto\Shaders\OceanMaskBody.cginc" />
  <Reference Include="Assembly-CSharp-firstpass">
- <HintPath>/Volumes/ExtBoot/Oceans Unlocked/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll</HintPath>
+ <HintPath>/Volumes/ExtBoot/Oceans-Unlocked/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>/Volumes/ExtBoot/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -236,19 +225,19 @@
  <HintPath>/Volumes/ExtBoot/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
- <HintPath>/Volumes/ExtBoot/Oceans Unlocked/Assets/BitStrap/Plugins/AssemblyProcessor/Editor/Cecil/Mono.Cecil.dll</HintPath>
+ <HintPath>/Volumes/ExtBoot/Oceans-Unlocked/Assets/BitStrap/Plugins/AssemblyProcessor/Editor/Cecil/Mono.Cecil.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil.Mdb">
- <HintPath>/Volumes/ExtBoot/Oceans Unlocked/Assets/BitStrap/Plugins/AssemblyProcessor/Editor/Cecil/Mono.Cecil.Mdb.dll</HintPath>
+ <HintPath>/Volumes/ExtBoot/Oceans-Unlocked/Assets/BitStrap/Plugins/AssemblyProcessor/Editor/Cecil/Mono.Cecil.Mdb.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil.Pdb">
- <HintPath>/Volumes/ExtBoot/Oceans Unlocked/Assets/BitStrap/Plugins/AssemblyProcessor/Editor/Cecil/Mono.Cecil.Pdb.dll</HintPath>
+ <HintPath>/Volumes/ExtBoot/Oceans-Unlocked/Assets/BitStrap/Plugins/AssemblyProcessor/Editor/Cecil/Mono.Cecil.Pdb.dll</HintPath>
  </Reference>
  <Reference Include="Newtonsoft.Json">
- <HintPath>/Volumes/ExtBoot/Oceans Unlocked/Assets/BitStrap/Plugins/NewtonsoftJson/Newtonsoft.Json.dll</HintPath>
+ <HintPath>/Volumes/ExtBoot/Oceans-Unlocked/Assets/BitStrap/Plugins/NewtonsoftJson/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="ArchimedsLab">
- <HintPath>/Volumes/ExtBoot/Oceans Unlocked/Assets/FloatingEntities/Scripts/ArchimedsLab.dll</HintPath>
+ <HintPath>/Volumes/ExtBoot/Oceans-Unlocked/Assets/FloatingEntities/Scripts/ArchimedsLab.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

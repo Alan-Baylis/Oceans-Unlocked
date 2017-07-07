@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{AFA0D3FB-5ABB-54E2-74C9-60E531D0A5A0}</ProjectGuid>
+    <ProjectGuid>{33644E87-1EA7-8AA8-C8C9-ED71F2070E05}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -250,6 +250,47 @@
      <Compile Include="Assets\Ceto\Scripts\Utility\ImageBlur.cs" />
      <Compile Include="Assets\Ceto\Scripts\Utility\ShipCamera.cs" />
      <Compile Include="Assets\Ceto\Scripts\Utility\ShoreMaskGenerator.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineBrain.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineClearShot.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineCollider.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineExternalCamera.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineFollowZoom.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineFreeLook.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachinePath.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachinePipeline.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineSmoother.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineStateDrivenCamera.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineTargetGroup.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineVirtualCamera.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Components\CinemachineBasicMultiChannelPerlin.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Components\CinemachineComposer.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Components\CinemachineGroupComposer.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Components\CinemachineOrbitalTransposer.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Components\CinemachineTrackedDolly.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Components\CinemachineTransposer.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\CameraState.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\CinemachineBlend.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\CinemachineBlenderSettings.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\CinemachineCore.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\CinemachineDebugLogger.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\CinemachinePathBase.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\CinemachinePropertyAttribute.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\CinemachineVirtualCameraBase.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\GaussianFilter.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\ICinemachineCamera.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\ICinemachineComponent.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\LensSettings.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\NoiseSettings.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\ReflectionHelpers.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\UnityVectorExtensions.cs" />
+     <Compile Include="Assets\Cinemachine\Blackboard\Blackboard.cs" />
+     <Compile Include="Assets\Cinemachine\Blackboard\Reactor.cs" />
+     <Compile Include="Assets\Cinemachine\Examples\Scenes\Scripting\ScriptingExample.cs" />
+     <Compile Include="Assets\Cinemachine\Examples\Shared\Scripts\CinemachineExampleWindow.cs" />
+     <Compile Include="Assets\Cinemachine\PostFX\CinemachinePostFX.cs" />
+     <Compile Include="Assets\Cinemachine\Timeline\CinemachineMixer.cs" />
+     <Compile Include="Assets\Cinemachine\Timeline\CinemachineShot.cs" />
+     <Compile Include="Assets\Cinemachine\Timeline\CinemachineTrack.cs" />
      <Compile Include="Assets\FloatingEntities\Scripts\BoatController.cs" />
      <Compile Include="Assets\FloatingEntities\Scripts\GameEntity\FloatingGameEntityFlat.cs" />
      <Compile Include="Assets\FloatingEntities\Scripts\GameEntity\FloatingGameEntityRealist.cs" />
@@ -261,19 +302,6 @@
      <Compile Include="Assets\FloatingEntities\Scripts\SplashGenerator.cs" />
      <Compile Include="Assets\FloatingEntities\Scripts\Tools\Proxies.cs" />
      <Compile Include="Assets\FloatingEntities\Scripts\WakeGenerator.cs" />
-     <Compile Include="Assets\LightingBox\Scripts\CameraMove.cs" />
-     <Compile Include="Assets\LightingBox\Scripts\EditorHotkeysTracker.cs" />
-     <Compile Include="Assets\LightingBox\Scripts\LightingBox.cs" />
-     <Compile Include="Assets\LightingBox\Scripts\LightingProfile.cs" />
-     <Compile Include="Assets\LightingBox\Scripts\PlayerPrefsX.cs" />
-     <Compile Include="Assets\LightingBox\VolumetricLight\Scripts\VolumetricLight.cs" />
-     <Compile Include="Assets\LightingBox\VolumetricLight\Scripts\VolumetricLightRenderer.cs" />
-     <Compile Include="Assets\LightingBox\VolumetricLight\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsBase.cs" />
-     <Compile Include="Assets\LightingBox\VolumetricLight\Standard Assets\Effects\ImageEffects\Scripts\Tonemapping.cs" />
-     <Compile Include="Assets\MSVehicleSystem(free version)\Scene\ExampleScene.cs" />
-     <Compile Include="Assets\MSVehicleSystem(free version)\Scripts\MSFPSController.cs" />
-     <Compile Include="Assets\MSVehicleSystem(free version)\Scripts\MSSceneController.cs" />
-     <Compile Include="Assets\MSVehicleSystem(free version)\Scripts\MSVehicleController.cs" />
      <Compile Include="Assets\PostProcessingVolume\PostProcessing Volume\Example\ExampleSceneScripts\MouseCamera.cs" />
      <Compile Include="Assets\PostProcessingVolume\PostProcessing Volume\Scripts\PostProcessVolume.cs" />
      <Compile Include="Assets\PostProcessingVolume\PostProcessing Volume\Scripts\PostProcessVolumeReceiver.cs" />
@@ -324,7 +352,9 @@
      <Compile Include="Assets\PostProcessingVolume\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
      <Compile Include="Assets\PostProcessingVolume\PostProcessing\Utilities\FocusPuller.cs" />
      <Compile Include="Assets\PostProcessingVolume\PostProcessing\Utilities\PostProcessingController.cs" />
+     <Compile Include="Assets\Scripts\AsyncLoader.cs" />
      <Compile Include="Assets\Scripts\damageSound.cs" />
+     <Compile Include="Assets\Scripts\LoadOnAwake.cs" />
      <Compile Include="Assets\UltimateMenus\Scripts\ButtonController.cs" />
      <Compile Include="Assets\UltimateMenus\Scripts\ButtonController_Paused.cs" />
      <Compile Include="Assets\UltimateMenus\Scripts\CanvasController.cs" />
@@ -363,7 +393,6 @@
      <None Include="Assets\Standard Assets\Effects\Projectors\Guidelines.txt" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
      <None Include="Assets\BitStrap\Shaders\Scanline.shader" />
-     <None Include="Assets\LightingBox\Doc\Licence.txt" />
      <None Include="Assets\Ceto\Shaders\CopyDepth.shader" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
      <None Include="Assets\UltimateMenus\Readme.txt" />
@@ -378,13 +407,10 @@
      <None Include="Assets\PostProcessingVolume\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
      <None Include="Assets\Ceto\Shaders\OceanTopSide_Opaque.shader" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\Uber.shader" />
-     <None Include="Assets\LightingBox\Shaders\StandardDoubleSided.shader" />
      <None Include="Assets\Ceto\Shaders\OceanDisplacement.cginc" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\Blit.shader" />
-     <None Include="Assets\LightingBox\Doc\Shourtcuts.txt" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
      <None Include="Assets\FloatingEntities\Shaders\Ocean.shader" />
-     <None Include="Assets\LightingBox\VolumetricLight\Shaders\BilateralBlur.shader" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
      <None Include="Assets\Ceto\Shaders\OceanBRDF.cginc" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\FXAA3.cginc" />
@@ -399,7 +425,6 @@
      <None Include="Assets\Ceto\Shaders\OceanUnderSide_Opaque.shader" />
      <None Include="Assets\Ceto\Shaders\OceanShaderHeader.cginc" />
      <None Include="Assets\Ceto\Shaders\Fourier.shader" />
-     <None Include="Assets\LightingBox\VolumetricLight\Shaders\BlitAdd.shader" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\Common.cginc" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
      <None Include="Assets\Ceto\Shaders\WaveOverlay.shader" />
@@ -407,8 +432,6 @@
      <None Include="Assets\Ceto\Shaders\FoamCopy.shader" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Editor Resources\UI\Trackball.shader" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-     <None Include="Assets\LightingBox\Shaders\Particle_Fade_Color.shader" />
-     <None Include="Assets\LightingBox\Doc\Optimization.txt" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\Bloom.cginc" />
@@ -416,7 +439,6 @@
      <None Include="Assets\VIDE\Data\example1Assets\Atmosphere.shader" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\TAA.shader" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
-     <None Include="Assets\LightingBox\Doc\Quick Start.txt" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\TAA.cginc" />
      <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
@@ -425,7 +447,6 @@
      <None Include="Assets\Ceto\Shaders\OceanDepth.shader" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\DiskKernels.cginc" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
-     <None Include="Assets\LightingBox\VolumetricLight\Shaders\VolumetricLight.shader" />
      <None Include="Assets\VIDE\ReadMe.txt" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
      <None Include="Assets\Ceto\Shaders\OceanSurfaceShaderBody.cginc" />
@@ -433,13 +454,11 @@
      <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\Ceto\Shaders\OceanUnderWater.cginc" />
-     <None Include="Assets\LightingBox\VolumetricLight\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
      <None Include="Assets\BitStrap\Docs\README.txt" />
      <None Include="Assets\Ceto\Shaders\OceanUnderSide_Transparent.shader" />
      <None Include="Assets\Ceto\Shaders\InitSlope.shader" />
      <None Include="Assets\BitStrap\Examples\Inspector\Editor\C# ScriptTemplate-BitStrap.txt" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
-     <None Include="Assets\MSVehicleSystem(free version)\Scripts\Shaders\SkidMarks.shader" />
      <None Include="Assets\Ceto\Shaders\UnderWaterPostEffect.shader" />
      <None Include="Assets\PostProcessingVolume\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
@@ -454,7 +473,7 @@
      <None Include="Assets\BitStrap\Plugins\NewtonsoftJson\link.xml" />
      <None Include="Assets\Ceto\Shaders\OceanMaskBody.cginc" />
  <Reference Include="Assembly-CSharp-firstpass">
- <HintPath>/Volumes/ExtBoot/Oceans Unlocked/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll</HintPath>
+ <HintPath>/Volumes/ExtBoot/Oceans-Unlocked/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Volumes/ExtBoot/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
@@ -478,10 +497,10 @@
  <HintPath>/Volumes/ExtBoot/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
  </Reference>
  <Reference Include="Newtonsoft.Json">
- <HintPath>/Volumes/ExtBoot/Oceans Unlocked/Assets/BitStrap/Plugins/NewtonsoftJson/Newtonsoft.Json.dll</HintPath>
+ <HintPath>/Volumes/ExtBoot/Oceans-Unlocked/Assets/BitStrap/Plugins/NewtonsoftJson/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="ArchimedsLab">
- <HintPath>/Volumes/ExtBoot/Oceans Unlocked/Assets/FloatingEntities/Scripts/ArchimedsLab.dll</HintPath>
+ <HintPath>/Volumes/ExtBoot/Oceans-Unlocked/Assets/FloatingEntities/Scripts/ArchimedsLab.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
